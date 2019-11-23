@@ -1,0 +1,7 @@
+C:\Users\Cross\source\repos\SOIB\PathFinder\bin\Debug\netstandard2.0\PathFinder.deps.json
+C:\Users\Cross\source\repos\SOIB\PathFinder\bin\Debug\netstandard2.0\PathFinder.dll
+C:\Users\Cross\source\repos\SOIB\PathFinder\bin\Debug\netstandard2.0\PathFinder.pdb
+C:\Users\Cross\source\repos\SOIB\PathFinder\obj\Debug\netstandard2.0\PathFinder.AssemblyInfoInputs.cache
+C:\Users\Cross\source\repos\SOIB\PathFinder\obj\Debug\netstandard2.0\PathFinder.AssemblyInfo.cs
+C:\Users\Cross\source\repos\SOIB\PathFinder\obj\Debug\netstandard2.0\PathFinder.dll
+C:\Users\Cross\source\repos\SOIB\PathFinder\obj\Debug\netstandard2.0\PathFinder.pdb

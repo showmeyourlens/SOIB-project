@@ -12,7 +12,7 @@ namespace FileParser
 
         public Network ReadNetwork(string fileName) 
         {
-            string pathToFile = Path.Combine(Environment.CurrentDirectory, fileName);
+            string pathToFile = System.IO.Path.Combine(Environment.CurrentDirectory, fileName);
             if (File.Exists(pathToFile))
                 return ParseFileToNetwork(pathToFile);
 
@@ -37,7 +37,7 @@ namespace FileParser
             {
                 foreach(Node connectedToCurrentNode in currentNode.ConnectedNodes)
                 {
-                    if (!result.FindLinkByNodes(currentNode.NodeId, connectedToCurrentNode.NodeId)) 
+                    if (result.FindLinkByNodes(currentNode.NodeId, connectedToCurrentNode.NodeId) == null) 
                     {
                         result.Links.Add(new Link(currentLinkId, currentNode.NodeId, connectedToCurrentNode.NodeId));
                         currentLinkId++;

@@ -15,9 +15,26 @@
           "bin/placeholder/FileParser.dll": {}
         }
       },
+      "GeneticService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "PathFinder": "1.0.0",
+          "Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GeneticService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeneticService.dll": {}
+        }
+      },
       "PathFinder/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Tools": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PathFinder.dll": {}
         },
@@ -43,6 +60,11 @@
       "path": "../FileParser/FileParser.csproj",
       "msbuildProject": "../FileParser/FileParser.csproj"
     },
+    "GeneticService/1.0.0": {
+      "type": "project",
+      "path": "../GeneticService/GeneticService.csproj",
+      "msbuildProject": "../GeneticService/GeneticService.csproj"
+    },
     "PathFinder/1.0.0": {
       "type": "project",
       "path": "../PathFinder/PathFinder.csproj",
@@ -57,6 +79,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "FileParser >= 1.0.0",
+      "GeneticService >= 1.0.0",
       "PathFinder >= 1.0.0"
     ]
   },
@@ -88,6 +111,9 @@
           "projectReferences": {
             "C:\\Users\\Cross\\source\\repos\\SOIB\\FileParser\\FileParser.csproj": {
               "projectPath": "C:\\Users\\Cross\\source\\repos\\SOIB\\FileParser\\FileParser.csproj"
+            },
+            "C:\\Users\\Cross\\source\\repos\\SOIB\\GeneticService\\GeneticService.csproj": {
+              "projectPath": "C:\\Users\\Cross\\source\\repos\\SOIB\\GeneticService\\GeneticService.csproj"
             },
             "C:\\Users\\Cross\\source\\repos\\SOIB\\PathFinder\\PathFinder.csproj": {
               "projectPath": "C:\\Users\\Cross\\source\\repos\\SOIB\\PathFinder\\PathFinder.csproj"

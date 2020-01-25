@@ -16,3 +16,5 @@ C:\Users\Cross\source\repos\SOIB\Runner\obj\Debug\netcoreapp3.0\Runner.dll
 C:\Users\Cross\source\repos\SOIB\Runner\obj\Debug\netcoreapp3.0\Runner.pdb
 C:\Users\Cross\source\repos\SOIB\Runner\bin\Debug\netcoreapp3.0\PathFinder.dll
 C:\Users\Cross\source\repos\SOIB\Runner\bin\Debug\netcoreapp3.0\PathFinder.pdb
+C:\Users\Cross\source\repos\SOIB\Runner\bin\Debug\netcoreapp3.0\GeneticService.dll
+C:\Users\Cross\source\repos\SOIB\Runner\bin\Debug\netcoreapp3.0\GeneticService.pdb
